@@ -11,4 +11,6 @@ LOCAL_PACKAGE_NAME := MusicFX
 
 LOCAL_PRIVILEGED_MODULE := true
 
+LOCAL_DEX_PREOPT := nostripping
+
 include $(BUILD_PACKAGE)
